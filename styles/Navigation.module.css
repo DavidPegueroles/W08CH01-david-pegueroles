@@ -1,0 +1,39 @@
+.navigationList {
+  border-bottom: 1px solid #eaeaea;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin: 0;
+  padding: 0;
+}
+
+.navigationListItem {
+  list-style: none;
+  margin: 0 12px;
+  padding: 0;
+
+  width: 20vw;
+  height: 80px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  text-align: center;
+
+  transition: 0.5s ease;
+}
+
+.navigationListItem:hover {
+  background-color: #f0f0f07a;
+  font-weight: bold;
+}
+
+.div {
+  height: 50px;
+  width: 0px;
+
+  border-left: 1px solid #eaeaea;
+}
