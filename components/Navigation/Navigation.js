@@ -11,7 +11,7 @@ const Navigation = () => {
       <div className={styles.div}></div>
 
       <li className={styles.navigationListItem}>
-        <Link href="/pokelist">Pokémon List 10 CSR</Link>
+        <Link href="/pokelist">Pokémon List CSR</Link>
       </li>
 
       <div className={styles.div}></div>
