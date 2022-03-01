@@ -23,14 +23,14 @@ const PokeList = () => {
 
   return (
     <>
-      <h1 className={styles.title}>Pokémon List</h1>
+      <h1 className={styles.title}>Pokémon List CSR</h1>
       <ul className={styles.pokemonList}>
         {pokemonList &&
           pokemonList.map((pokemon) => (
             <li key={pokemon.id} className={styles.pokemonListItem}>
               <div className={styles.pokemonImageContainer}>
                 <Image
-                  src={pokemon.sprites.front_default}
+                  src={pokemon.sprites.other["official-artwork"].front_default}
                   alt={pokemon.forms.name}
                   layout="fill"
                   objectFit="contain"
