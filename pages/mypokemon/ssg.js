@@ -7,7 +7,7 @@ const PokemonSSG = ({ pokemonList }) => {
       <h1 className={styles.title}>Pokémon List SSG</h1>
       <ul className={styles.pokemonList}>
         {pokemonList.map((pokemon) => (
-          <li key={pokemon.id} className={styles.pokemonListItem}>
+          <li key={pokemon.id} className={styles.pokemonListItemClickable}>
             <div className={styles.pokemonImageContainer}>
               <Image
                 src={pokemon.sprites.other["official-artwork"].front_default}
