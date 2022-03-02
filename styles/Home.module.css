@@ -3,7 +3,7 @@
 }
 
 .main {
-  min-height: 80vh;
+  min-height: 72vh;
   flex: 1;
   display: flex;
   flex-direction: column;
@@ -18,6 +18,9 @@
   border-top: 1px solid #eaeaea;
   justify-content: center;
   align-items: center;
+
+  position: bottom;
+  margin-top: 50px;
 }
 
 .footer a {
