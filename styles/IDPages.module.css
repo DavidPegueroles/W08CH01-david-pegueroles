@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap");
+
+.title {
+  color: black;
+  margin: 30px;
+}
+
+.pseudoTitle {
+  text-align: center;
+  font-family: "Syne Mono", monospace;
+  font-size: 40px;
+  color: black;
+
+  margin-bottom: 0;
+}
+
+.pokemonImageContainer {
+  position: relative;
+  height: 80vw;
+}
+
+.pokemonStats {
+  padding: 0;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.pokeStat {
+  list-style: none;
+  font-size: 20px;
+  font-family: "Syne Mono", monospace;
+  margin-bottom: 20px;
+}
