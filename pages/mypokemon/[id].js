@@ -1,4 +1,4 @@
-import styles from "../../../styles/IDPages.module.css";
+import styles from "../../styles/IDPages.module.css";
 import Image from "next/image";
 import { useRouter } from "next/router";
 

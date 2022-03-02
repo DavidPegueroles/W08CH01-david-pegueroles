@@ -1,13 +1,25 @@
 import styles from "../../../styles/PokemonPages.module.css";
 import Image from "next/image";
+import router from "next/router";
 
 const PokemonISR = ({ pokemonList }) => {
+  const goToDetailsPage = (id) => {
+    console.log(id);
+    router.push(`/mypokemon/${id}`);
+  };
+
   return (
     <>
       <h1 className={styles.title}>Pokémon List ISR</h1>
       <ul className={styles.pokemonList}>
         {pokemonList.map((pokemon) => (
-          <li key={pokemon.id} className={styles.pokemonListItemClickable}>
+          <li
+            key={pokemon.id}
+            className={styles.pokemonListItemClickable}
+            onClick={() => {
+              goToDetailsPage(pokemon.id);
+            }}
+          >
             <div className={styles.pokemonImageContainer}>
               <Image
                 src={pokemon.sprites.other["official-artwork"].front_default}
