@@ -1,4 +1,5 @@
 import Head from "next/head";
+import styles from "../../styles/Home.module.css";
 import Navigation from "../Navigation/Navigation";
 
 const Layout = ({ children }) => {
@@ -11,6 +12,7 @@ const Layout = ({ children }) => {
       </Head>
       <Navigation />
       {children}
+      <footer className={styles.footer}>Powered by ME!</footer>
     </>
   );
 };

@@ -6,8 +6,6 @@ export default function Home() {
       <main className={styles.main}>
         <h1 className={styles.title}>Pokémon</h1>
       </main>
-
-      <footer className={styles.footer}>Powered by ME!</footer>
     </div>
   );
 }
